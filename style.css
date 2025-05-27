@@ -160,6 +160,18 @@ h1 {
     width: 120px;
 }
 
+.mobile-controls button {
+    width: 120px;
+    height: 80px;
+    font-size: 28px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    touch-action: manipulation;
+    margin: 0 10px;
+}
+
 @media (max-width: 768px) {
     .special-title {
         font-size: 24px;
