@@ -87,8 +87,8 @@ class Tetris {
             }
         }, { passive: false });
         
-        // 防止移动端滚动
-        document.addEventListener('touchmove', (e) => {
+        // 只在游戏区域阻止滚动
+        this.gameBoard.addEventListener('touchmove', (e) => {
             if (this.isPlaying) {
                 e.preventDefault();
             }
